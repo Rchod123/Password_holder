@@ -8,6 +8,7 @@
     "backend": "node backend/server.js",
     "pod": "cd ios && pod install",
     "lint": "eslint .",
+    "clean": "rm -rf ./node_modules ./backend/node_modules  ./backend/*.lock *.lock",
     "start": "react-native start",
     "test": "jest"
   },
