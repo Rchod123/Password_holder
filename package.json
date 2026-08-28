@@ -5,6 +5,7 @@
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
+    "backend": "node backend/server.js",
     "pod": "cd ios && pod install",
     "lint": "eslint .",
     "start": "react-native start",
@@ -19,9 +20,11 @@
     "react-native-biometrics": "^3.0.1",
     "react-native-keychain": "^10.0.0",
     "react-native-nitro-modules": "^0.37.0",
+    "react-native-quick-base64": "^3.0.1",
     "react-native-quick-crypto": "^1.1.7",
     "react-native-safe-area-context": "^5.9.1",
-    "react-native-screens": "^4.27.0"
+    "react-native-screens": "^4.27.0",
+    "realm": "^20.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
